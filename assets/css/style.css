@@ -1,0 +1,12 @@
+.jumbotron.satu {
+  background-image: url(img/Portfolio.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+  font-family: Poppins;
+}
+
+.jumbotron h1 span {
+  color: #f3bb25;
+  font-weight: 600;
+}
