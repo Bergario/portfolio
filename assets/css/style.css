@@ -10,3 +10,8 @@
   color: #f3bb25;
   font-weight: 600;
 }
+
+.button button {
+  font-family: Poppins;
+  color: #ffff;
+}
