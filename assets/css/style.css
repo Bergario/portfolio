@@ -1,6 +1,9 @@
+body {
+  font-family: Poppins;
+}
+
 .jumbotron.satu {
   background-image: url(img/Portfolio.jpg);
-  background-attachment: fixed;
   background-size: cover;
   height: 600px;
   font-family: Poppins;
@@ -14,4 +17,30 @@
 .button button {
   font-family: Poppins;
   color: #ffff;
+}
+
+#about svg {
+  margin-top: -100px;
+}
+
+.content {
+  background-color: #dfdedc;
+  min-height: 1000px;
+}
+
+.box {
+  width: 25%;
+  background-color: #ffff;
+  box-shadow: 3px 4px 5px #a9a1a1;
+  height: 70px;
+  display: inline;
+  line-height: 70px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1025px) {
+  .jumbotron.satu {
+    height: 780px;
+  }
 }
