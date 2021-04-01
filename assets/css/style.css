@@ -9,21 +9,26 @@ body {
   font-family: Poppins;
 }
 
+.jumbotron h1 {
+  font-family: "Kiwi Maru", serif;
+  letter-spacing: 2px;
+}
+
 .jumbotron h1 span {
   color: #f3bb25;
   font-weight: 600;
+  font-family: "Kiwi Maru", serif;
 }
 
 .button button {
-  font-family: Poppins;
   color: #ffff;
 }
 
-#about svg {
+#content svg {
   margin-top: -100px;
 }
 
-.content {
+.content-job {
   background-color: #dfdedc;
   min-height: 1000px;
 }
@@ -37,6 +42,18 @@ body {
   line-height: 70px;
   font-weight: 600;
   box-sizing: border-box;
+  color: #686963;
+  letter-spacing: 2px;
+}
+
+#about {
+  margin-top: 200px;
+}
+
+#about h2 {
+  font-family: "Kiwi Maru", serif;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 @media (min-width: 1025px) {
